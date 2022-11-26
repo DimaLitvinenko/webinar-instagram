@@ -1,14 +1,17 @@
 {
     "name": "react-instagram-page",
     "version": "1.0.3",
+     "homepage": "https://DimaLitvinenko.github.io/webinar-instagram/",
     "author": {
-        "name": "Dimon Lytvynenko",
-        "email": "Dimaly.too@gmail.com"
+        "name": "Dimon4",
+        "email": "dimaly.too@gmail.com"
     },
     "scripts": {
         "dev": "react-app-rewired start",
-        "build": "react-app-rewired build",
+    
+         "build": "react-scripts build",
         "test": "react-app-rewired test",
+        "deploy": "gh-pages -d build",
         "eject": "react-scripts eject"
     },
     "dependencies": {
