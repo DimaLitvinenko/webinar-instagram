@@ -1,9 +1,9 @@
 {
-    "name": "webinar-instagram",
+    "name": "react-instagram-page",
     "version": "1.0.3",
     "author": {
-        "name": "Andrey Prisniak",
-        "email": "aprisniak@lectrum.io"
+        "name": "Dimon Lytvynenko",
+        "email": "Dimaly.too@gmail.com"
     },
     "scripts": {
         "dev": "react-app-rewired start",
