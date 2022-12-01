@@ -2,23 +2,24 @@
     "name": "webinar-instagram",
     "version": "1.0.3",
     "repository": {
-    "type": "git",
-    "url": "git+https://dimalitvinenko.github.io/webinar-instagram.git"
-  },
-     "homepage": "https://DimaLitvinenko.github.io/webinar-instagram",
+        "type": "git",
+        "url": "git+https://dimalitvinenko.github.io/webinar-instagram.git"
+    },
+    "homepage": "https://DimaLitvinenko.github.io/webinar-instagram",
     "author": {
         "name": "Dimon4",
         "email": "dimaly.too@gmail.com"
     },
     "scripts": {
-        "dev": "react-app-rewired start",
-        "build": "react-scripts build",
+        "start": "react-app-rewired start",
+        "dev": "react-scripts build",
         "test": "react-app-rewired test",
         "deploy": "gh-pages -d build",
         "eject": "react-scripts eject"
     },
     "dependencies": {
         "classnames": "2.3.1",
+        "gh-pages": "^4.0.0",
         "react": "17.0.2",
         "react-dom": "17.0.2",
         "react-spring": "9.3.0",
