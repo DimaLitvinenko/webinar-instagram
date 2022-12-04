@@ -1,5 +1,5 @@
 {
-    "name": "webinar-instagram",
+    "name": "react-instagram-page",
     "version": "1.0.3",
     "private": "true",
     "repository": {
@@ -17,7 +17,7 @@
         "test": "react-scripts test --env=jsdom",
         "eject": "react-scripts eject",
         "predeploy": "npm run build",
-        "deploy": "react-scripts build && gh-pages -d build"
+        "deploy": "gh-pages -d build"
     },
     "dependencies": {
         "classnames": "2.3.1",
